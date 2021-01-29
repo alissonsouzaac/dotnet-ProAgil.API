@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rm7XviEL2XMAQd2zYbuFjHlTpT5UKT1r9TC/V3MC+qbcU0oABcnslAu6/LGbynvhr3P6+bCuNNBVVWQMjyhpmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\T-Gamer\\Desktop\\dotnetcore\\ProAgil.API\\ProAgil.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
