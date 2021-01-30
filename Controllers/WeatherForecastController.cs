@@ -4,11 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using ProAgil.API.models;
 
 namespace ProAgil.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -24,6 +25,21 @@ namespace ProAgil.API.Controllers
         }
 
         [HttpGet]
+        public ActionResult<IEnumerable<Evento>> Get()
+        {
+            return new Evento[] { 
+                new Evento() {
+                    EventoId = 1,
+                    Tema = "Angular",
+                    Local = "JP",
+                    Lote = "1° Lote",
+                    QtdPessoas = 500,
+                    DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
+                }
+            };
+        }
+
+       /* [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
@@ -34,6 +50,6 @@ namespace ProAgil.API.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
-        }
+        }*/
     }
 }
