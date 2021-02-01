@@ -35,8 +35,41 @@ namespace ProAgil.API.Controllers
                     Lote = "1° Lote",
                     QtdPessoas = 500,
                     DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
-                }
+                },
+
+                new Evento() {
+                    EventoId = 2,
+                    Tema = "react",
+                    Local = "JP",
+                    Lote = "1° Lote",
+                    QtdPessoas = 100,
+                    DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
+                },
             };
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult<string> Get(int id)
+        { 
+            return "pegou";
+            /*  return new Evento[] { 
+                new Evento() {
+                    EventoId = 1,
+                    Tema = "Angular",
+                    Local = "JP",
+                    Lote = "1° Lote",
+                    QtdPessoas = 500,
+                    DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
+                },
+                new Evento() {
+                    EventoId = 2,
+                    Tema = "react",
+                    Local = "JP",
+                    Lote = "1° Lote",
+                    QtdPessoas = 100,
+                    DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
+                }
+            };*/
         }
 
        /* [HttpGet]
